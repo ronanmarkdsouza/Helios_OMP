@@ -39,5 +39,6 @@ struct rocket_params{
 	string prop_data_path;
 	string aero_data_path;
 	string output_name;
+	rocket_params();
 };
 #endif
