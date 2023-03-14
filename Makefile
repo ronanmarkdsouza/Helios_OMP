@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-I../include
+CFLAGS=-I../include -fopenmp
 
 all:main
 
