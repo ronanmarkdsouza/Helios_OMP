@@ -12,8 +12,14 @@ int main(int argc, char* argv[]){
 		cout<<"Continue with deafult values? [y/n]";
 		char inp;
 		cin>>inp;
-		if((inp!='y')||(inp!='Y'))
-			exit(0);
+		switch(inp){
+			case 'y':
+				break;
+			case 'Y':
+				break;
+			default:
+				exit(0);
+		}
 	}
 	#pragma omp parallel for
 	for(int i=1; i<argc; ++i){
